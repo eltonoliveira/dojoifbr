@@ -1,0 +1,22 @@
+{
+    "name": "Dojo",
+    "description": "Dojo",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "config": {
+    	"process-timeout": 15000
+    },
+    "require": {
+        "php": ">=7.0",
+        "phpunit/phpunit": "6.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dojo\\": "src/Dojo/"
+        }
+    }
+  
+}
